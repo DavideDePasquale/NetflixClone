@@ -1,0 +1,38 @@
+.hover-item{
+    transform: 0.2s ease;
+}
+
+
+.hover-item:hover {
+        background-color: rgb(92, 85, 85);
+        transform: 0.2s ease;
+        transform: translateY(-5px);
+}
+.spazio {
+    letter-spacing: 4px;
+}
+.check {
+   width: 25px;
+   height:25px;
+   cursor: pointer;
+   margin-right: 7px;
+   background-color: transparent;
+   border:none;
+}
+.ciao-button{
+    transform: 0.2s ease !important;
+}
+.ciao-button:hover{
+    background-color: rgb(255, 255, 255) !important;
+    color:black !important;
+    transform: 0.2s ease !important;
+    transform: translateY(-1px) !important;
+    border:none !important;
+    font-weight: bold !important;
+}
+.letterebtn {
+    letter-spacing: 3px;
+}
+.specimg{
+    position:relative;
+}

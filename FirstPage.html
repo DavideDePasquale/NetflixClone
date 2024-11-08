@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>netflix Clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body class="text-white bg-dark">
+    <div class="container">
+    <nav class="d-flex navbar navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/netflix_logo.png" width="70px" alt="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" ms-2 collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href=""
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Recently Added</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">My List</a>
+            </li>
+            </ul>
+        </div>
+         <div class="mr-n3">
+        <ul class= "d-flex navbar-nav">
+            <li class="nav-item dropdown list-unstyled">
+                <li class="align-self-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li class="align-self-center">
+                  <a class="nav-link text-white" href="#">KIDS</a>
+                  </li>
+                  <li class="align-self-center">
+                    <i class="fa-solid fa-bell"></i>
+                  </li>
+               
+                
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+               <img src="./assets/kids_icon.png" width="30px" alt="">
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-white hover-item" href="SecondPage.html" target="_blank">Accedi!</a>
+                </li>
+                
+                <li>
+                  <a class="dropdown-item text-white hover-item" href="SecondPage.html" target="_blank">Registrati</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+    </nav>
+        <section>
+            <div class="d-flex justify-content-start align-items-center mb-3 gap-4">
+        <h1 class="h4">TV SHOES</h1>
+           <div class="dropdown bg-dark">
+           <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> Generes</button>
+        
+        <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item text-white hover-item" href="#">Horror</a></li>
+            
+            <li>
+              <a class="dropdown-item text-white hover-item" href="#">Commedy</a>
+            </li>
+
+          </ul>
+          </div>
+         
+          <div class="d-flex ms-auto justify-content-start align-items-center">
+            <div class="px-2 border border-1 border-white">
+            <i class="fa-solid fa-align-left"></i></div>
+            <div class="px-2 border border-white border-opacity-50">
+            <i class="fa-solid fa-table"></i></div>
+          </div>
+          </div>
+        </section>
+        <section class="film">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+            <h4 class="h6 me-auto mb-0">Trending Now</h4>
+        </section>
+            <div class="mb-3 row g-1 row-cols-1 row-cols-sm-2 row-cols-lg-6 gy-1 gy-lg-0 my-0">
+                <div class="col">
+                <div class="card rounded-0 border-0">
+                    <img src="./assets/media/media0.webp" alt="Sherlok">
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="card  rounded-0 border-0">
+                            <img src="./assets/media/media1.jpg" alt="">
+                            </div>
+                            </div>
+                            <div class="col">
+                                <div class="card  rounded-0 border-0">
+                                    <img src="./assets/media/media3.webp" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card  rounded-0 border-0">
+                                            <img src="./assets/media/media4.jpg" alt="">
+                                            </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card  rounded-0 border-0">
+                                                    <img src="./assets/media/media5.webp" alt="">
+                                                    </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="card  rounded-0 border-0">
+                                                            <img src="./assets/media/media6.jpg" alt="">
+                                                            </div>
+                                                            </div>
+
+                    
+          
+          
+                </div>
+            </section>
+            <section class="film2">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                <h4 class="h6 me-auto mb-0">Watch It Again</h4>
+            </section>
+                <div class="mb-3 row g-1 row-cols-1 row-cols-sm-2 row-cols-lg-6 gy-1 gy-lg-0 my-0">
+                    <div class="col">
+                    <div class="card rounded-0 border-0">
+                        <img src="./assets/media/media7.webp" alt="">
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card  rounded-0 border-0">
+                                <img src="./assets/media/media8.webp" alt="">
+                                </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card  rounded-0 border-0">
+                                        <img src="./assets/media/media9.jpg" alt="">
+                                        </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card  rounded-0 border-0">
+                                                <img src="./assets/media/media10.jpg" alt="">
+                                                </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="card  rounded-0 border-0">
+                                                        <img src="./assets/media/media11.jpg" alt="">
+                                                        </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="card  rounded-0 border-0">
+                                                                <img src="./assets/media/media12.jpg" alt="">
+                                                                </div>
+                                                                </div>
+    
+                    </div>
+                </section>
+                <section class="film2">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                    <h4 class="h6 me-auto mb-0">New Releases</h4>
+                </section>
+                    <div class="mb-3 row g-1 row-cols-1 row-cols-sm-2 row-cols-lg-6 gy-1 gy-lg-0 my-0">
+                        <div class="col">
+                        <div class="card rounded-0 border-0">
+                            <img src="./assets/media/media13.jpg" alt="">
+                            </div>
+                            </div>
+                            <div class="col">
+                                <div class="card  rounded-0 border-0">
+                                    <img src="./assets/media/media14.webp" alt="">
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card  rounded-0 border-0">
+                                            <img src="./assets/media/media15.jpg" alt="">
+                                            </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card  rounded-0 border-0">
+                                                    <img src="./assets/media/media16.webp" alt="">
+                                                    </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="card  rounded-0 border-0">
+                                                            <img src="./assets/media/media17.jpg" alt="">
+                                                            </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="card  rounded-0 border-0">
+                                                                    <img src="./assets/media/media18.jpg" alt="">
+                                                                    </div>
+                                                                    </div>
+        
+                        </div>
+                    </section>
+                    <div class="container2 pt-5">
+                        <div class="row g-0 justify-content-start offset-2 ">
+                            <div class="col-1">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD////IyMjh4eFWVlbo6Oi2trYyMjLCwsKtra3W1tYpKSnc3NyEhIQKCgr6+vo4ODhbW1unp6fPz88gICCXl5d0dHRLS0tqamru7u4YGBihoaFgYGB2dnaOjo67u7uAgIA/Pz9ISEglJSURERHwsYQeAAADl0lEQVR4nO3d2XLiMBCFYdkQxxbyhgl7DCS8/zMOSzK5mCkspLS7pTr/Re5C6Su8YiFUcs+UTaXiqWpK8yVTt7+65R4SQa3+K6wL7sHQVGX1XRgr8FJR34TxApXKrkLNPQrKKn0RxniQ+alNlOEeA3FGldxDIK5UDfcQiGtUTFcy/yt2H0IIIYQQQgghhBBC6N52dunUzL5bVPF8Pvh5apfH8q241OXFd7u+LPvjcrncT1fN64J7kM4tVu99kb4kD9oYnWfzdZDG7bQvuvqR7qfDK/don292zLSd7loWnPD1Ld3Y+8ITnkttuXUGKmy7p96/8IS7p32BCZ/dQEMTNg68oIR7N2A4wt4RGIywd9kFQxKuHQ6iQQn3D6+wIxCeOndgEMJF4bwTBiI8uu+EYQinT9wqBSk877yAAQh9jqNBCBdzP6B84d7rMBOA8Ox8PRqKcOW5F8oXrn2B0oWzPHbhhzdQutB/IxUu3GaxC2e+J8NE+nOLkz2knug0zf8t7T+5FY9a2vrMYbc+nbmH65DlNamZ77lH6prdnWEarE8pK2D+wT1M9z5tgF3AQHWyAL68c4/Sp9ZmGw16Ykk5DNwcuQfplYWwC/vbnxbCnHuMfh2GhYEvFJAO74Y99xj9GhaGfa6wEU6m3GP0C0II5QchhPKDEEL5QQih/CCEUH4QQig/CCGUH4ThC4enfBn5j0cHDb7NuWdokAvfmIEQerdZxi6crGMX8s9FoRbm7M/5qYXZNnYh/3N+auGcG0gtFDCTgVgoYCYDsVDz33sQC7sVN5BamLOfLKiFh+iFGbePXMh/OiQWSphfSyvkv3eiFmr+kwWxUMIcaVphKmAiP7GQm6eohQJOh7TCmv2jREUs3PDfOxELJxJ+EY9UaE7cPEUs1BKWnyUVdty6axD6VO+4ddc2Lw8aXsSsfvT/Rv4vUw4/5Z6wP3jxK/6ZChBCKD8IIZQfhBDKD0II5QchhPKDEEL5QQih/CCEUH4QQig/CCGUH4QQyg9CCOUHIYTygxBC+UEIofwghFB+EEIoPwghlB+EEMoPQgjlByGE8oMQQvlBCKH8IIRQfhD+npBr1bOxhJXiWrluLGGjuFZBGUtYKvMbL+PQWEKjEqZVwUYStolKNM+xZhxhpS9CpgUIxxFmyVVYs6zAP4qwqG/CpM4YNtQRhFV2XW7rvuSYHv9wQy9s9e1lvhdVM2Uz7htJK6ya0ny9zB+ZTkBMFF8i2wAAAABJRU5ErkJggg==" class="img-fluid rounded-3" width="60%" alt="Facebook">
+                              </div>
+                             
+                              <div class="col-1">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAAATExPl5eXExMTBwcHp6eklJSXt7e3g4OA4ODi3t7dMTEzz8/NQUFDT09Ojo6NZWVkNDQ28vLy0tLRfX1/KysodHR2qqqoxMTHW1taUlJRDQ0MgICArKytqamqFhYWQkJCAgIB1dXVkZGSdnZ01NTVAQEAYGBiuKSTXAAAL+0lEQVR4nN1d2XbaMBCFENZglrAZSNgJ/P8XNoSmgOeOPJJGtug9p30IktFFsjS7KhVLJIu35X7Y6/W6p+43Pjr/8LVqfmN2bl7xeX6BeK8K8bf996PmnU63N1zvd8t0mtgO2ArT5UQ6vIAYLqdB2DUG3bKp3aE3aOjSSwZfZXMimA/0Fmw/hrWJcOir8ButyiZiQHPsz29WNokcvL958ZvGPH+/aLpvrUms718WE8c9Z1D2wC0wcODXOpU9aiucrKdxVPaQrfFqR3BX9ngdsLEh+FH2aJ3QE/NricX/yPApfBnbZQ/UAyJ5/JkJVqvt/52ggOKzE8xdqC3RQybLdPx2wah+w6sb6hSj23+Xr7n8SwfpYLBci8Rk83aTu4vONvVW/lIPh/4x9yT7NPXP6b3Sth04IRnnDNNwLpolmf2iOBY5qJlHuuX6GWXRfamLkyDZmAbLaIyJocswLn4XJGvDePFuY1jdlnJ7QVjwFhb4KvIK76HooYvBv44pbcyvUdA4GtTZUdN1OuSa6tgkQ6HBDXuSbTnlWsZwAhoxZwae3U+buNl7WFePChiHw+qx1Zj5IZ6AYKXCSKujh0bnJ12iV2Bp+kE+fcME495kbmA0ovtJxPPsYmYtB3if/MprQPbbiIGl1NsaxP6JEgdsD7gK17+fYnFmZHpgKWiMBsfBGOsN2PryexRAiVRuXi0I6b+jfYe2eCii/gqc8MisFTn6fLw+DG4HWiASH9ePoGi3L3T8ucjuJGeqr8KV2Mr7KBbsJQNENK7LFMXJrEn/MnEEI5yRVkvQ6nriIe7xGJ0q3D5J3kV4JFw+QMf9in5NiWCCscheeGCmCi2BqOQ1ztFAJvEVNLowQQJNVPsMazckLUGbA/7zF/2aEsE6K8hmAeyLL/j9XJZBhAVHsEoivpAen1QW4K9R6YW8EZBMBNIT21D5LYMICwuGSNmvo3MyrrOCX6VH0hS8iAMkEEUmk7IMqX63pY02yBIcmZGbtVVTJQqI2GskMPhHpaoiZQg2aVOwmfaegCG3TIHgBTyg3QoIQQzFsLGY1uvTaX9Rs5OZtpghaAnktm6lUwTD9njTy+zk3V0qPnYhQTRKoEV8IBOGLsPFkk/UmG9EEcxI9oYaLGB4Qq4bRYZTcBhlMBGEotORYxW9jxgCuVaLYc0YTXA/3NyZbGfWOD3sOYadcAxfbYJU8/MmtnetT1zwGhCyv5DjUIPhm3WeRq7WnV6P/tmON7FAhp8hGE4Zh6sZ+bJU0jD7+8CWNK+A39qXYaPnwu8bn75qm5ShX55NZevI7wJPKyZguFJn2AbL3gZ1ZYZN9B76MPRPtPHR3QDDT+U5ZDUdC6zcwyNq9GkzVYYtpVQ+5w0HMgRRGK4MkVHLDa67eWCGbFiVAxipzIHhufKixZAPonMBG+ZbHkMRwa/e5DAZfkiyjpwohmSYt0RP2/q9uNx4PeYlqLosVMgQ/J4ODM2bzA7HGPc3xsl0MPmFY2hKRJmYQqj7pmBt+wzmcAx5SW2fF/xnCrq3DhwEDF9UGLKSzEFiVEtYSwf11SsxtI2G4mTRmVQ2aXNVN2xVjUAMxV5oA5Cr/QJL4SYQQ+YltMvRqDEirZ0UDhmCp9ox3MKRzaxDAfD5aBdeF4QhTgf4sBrYFTg9xGowQRhCg7ZbYCM+N2yeEIIhimFxjtyEFG3CJkIwRNuMyxK9Ap6MFptNAIYozsGYpZoDJDts5N0DMERT6BVQhcKD5JOozxC9hX7F1JAML1cV9RkC58vGntUDUFyTuLM6QyCvWQvLBMAlIFYF1BmCM9o/YAzEQIk3Z3WGtKtGQi2I0pIqikDA8mII9hmVwFT6WKnNBjB892FIz2edeDGqb86FPaUMpe4f2lMpX9H5wcoMaVjA0J3UA7bkyUK7mzJDuiNoVU6lx75wB1NmSI97d04ZUJVM1k+ZIelnY5gxgwo2gvpPFW2G1MytV96XnvqyF1GXIQ379OGUATEvys4hXYZEZNPMydxmH34SddNlSHYDzSwN6qsTddNl6NhNBnpeiOTBwAxV82rJ00VKiypD+jA/ShmQw9ZxUB4MqfbrRykD4lcUeTBUGZLj0N2GiEB26uIZErlbS+y+ghiHRUe+KkMSmqBbL2ubfbworTUsQ930b6K4RMBQtxSK2hxCO81/9R4qMpRJjlKo7aXuDIs+D0VWYVWGgWUaYvkWhQWoMqRKqmphMBJA4SqXujOkHTULZDr+foDh2Z0hSVzU1A+ppVLUTcpQNhnE4q15XJAIIll+uS5Danv3oZQB2WhkEpMuQxozq1iKgTxbVm1FlyHtuXEmlAU108h+PWWGND/Ng9MjaC0dWT/AcObBkHqA1UzC5MlC9VqZIV1KWioi3cSEJ5EyQ9BVqTYRzXIRVuYCDD99GNKoCR3fDKiMIOypzRAUrFCpyku3MOkvB2IxvBiCuBANRz6IGZKetNoMUVivzM9nBH3oi7QrWKVNL4YgFajjxuoOIAxJnCCkzhAlTfkWs0P5ReK3W58hKo7j6aABuQPyl1ufIep9dqB1A4rYl7/bgOHKkyHKBPHRE/kKnSIEYAiL47if+/AeGItlH4IhLFPlas+AaZo23gLAcO7LEF+q4JaojPNQbcSkIAxB0ZuqmzKMi/tb/VhBGKJKflUXPw3aZGxTG4DU9uXPkCmn1rTUpJjEZzspMBBDLo3bJhV1weQ8W+asA4YdBYbsnUQ98TRyT7D1Z4ViyN30Ij02uCtg7NVNwPCkwtBwn1m+IG64u93aACtlaB++ZSo4sDWu1RSoJ7+wLzkQjqFhoX2jmzKr7dVUb6C6sR8GYPihxJBNxv6Lzvb1kWXSP/LlFH/gEtsRkmFlax7vz5etd5vtcrvZ7bOFMAGcQjsAw64aQ750uhPcVDCQaqbIkBG73OBoPQ/MkC34aw9XDRMyhEW+HQETux3gXIw6OMNKTeVWdndPa3iGrIpggZOHZwAw7Gkz9H4Z3Yp8Fcmw0rKpPZtF088rABkCudA3rcAowhnhWIiucIaup//a2zcHGA5RVUGF1JBWfpXrLCYK+RqQIajto3JrXstuHtcq+SiQIbB3at0LOOB120fMBko3ugI9dYJKbejdfNiWTKSherUtIENQdd6zUvIj2kY9sHdUcBrfAMzTB1S8Q/1uhEW6o19z2qfqt7sBhhNUaCPMLSxJe/qWHo/L5WD8Nm2HuUoZzmH898xYABin10hUfl6GQH3bo+JTXsJvqQDuqz0yqMd1gaUNgCFl/wR3dlkA2F+3UJ8re6DOAKrgGPrGoro7zwLIf7KA5cN81bSygEI5EujC7ZY9VEeAXfO9ggv5hZE4ggMwuZiWkak6tpvXZEBhIRf/JdpqnnOZIl/5j3AP/q6baVcUEJGfD9DNPptSh+oGdLJffXSwHHfJo3UB8pdflQhY6/j5pG8YNPb3UIDBIk93YCCn0G8yEVymkV0omwtI4lfTxeEw6kaUoMAc/n0MXWL+tVaLBLye4bYOceydXoG58MDOoLtliI3TehXmQgOXvr/PboER5E8k2WDn+oOHCXigqlfV4xmAYyMf73zGMdbVr5KGbAfG6ZxxEjLXauqWZAkDxi+SrczLhTJLK/iWB87xQ4xN3H0/75FvN8B39gMaN8bH+cZ8aDTYECUgV/P3a26KHrcYfNQH9L3wcTBzVTemGhL+TlBshjHEo0cpwZkudeXCrg1dorMSj0xBguzWwSV2XLGMSClOjXe6GgwUOcHlB81SUO5YmGfCHCJuyH64Yj1Wqn3hiGSUG21lFlJMu80vZutl+lafTvuL9h1qCI0WQAM2pbg9e9Fe9PvT6Wi5FkTo5pUnAPH8T4bc3YK76+9ZIHiJ9G5mLgOiXeKJZ/FdeKC1sMYfPyxuZc85FyOFVWH/nDM1SmxsCGrfI14E7DNffZIKikfXRWjWS9QKD8dgw8Q/xacYHNy1niln54kJc78QrpFREYsAZ/+4+1HM87jSibrv02KbceCgF2KYpKQucunocFn+rmilvO2ueEzSMKaG/jGG8+MwCBtikCxGx9261/vodufNO5xfnHCe/fRezTs3nL6ffUHvB8NvTA6Hw3q/3y/Hfeul+QdSGbtr61QRIwAAAABJRU5ErkJggg==" class="img-fluid rounded-3" width="60%" alt="Instagram">
+                        
+                        </div> 
+                                <div class="col-1">
+                                    
+                                <img src="data:image/png;base64,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" class="img-fluid rounded-circle" width="60%" alt="Twitter">
+                        
+                        </div>
+                                <div class="col-1">
+                                   
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2oyuL3f9SA6tjm36ExJCAeSyGRkpyj8w2_w&s" class="img-fluid rounded-3" width="60%" alt="YouTube">
+                            
+                        </div>
+       </div>
+
+
+
+
+
+        </div>
+      <footer class="pt-4">
+            <div class="container3">
+                <div class="row g-0 justify-content-start offset-2">
+                    <div class="col-12 col-sm-6 col-lg-2 p">
+                        <p class="text-light-emphasis small">Audio and subtitles</p>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <p class="text-light-emphasis small">Audio Description</p>
+
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2">
+                <p class="text-light-emphasis small">Help Center</p>
+
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+            <p class="text-light-emphasis small">Gift Cards</p>
+
+    </div>
+
+            </div>
+            <div class="row g-0 justify-content-start offset-2">
+                <div class="col-12 col-sm-6 col-lg-2">
+                    <p class="text-light-emphasis small">Media Center</p>
+
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2">
+                <p class="text-light-emphasis small">Investitors</p>
+
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+            <p class="text-light-emphasis small">Jobs</p>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-2">
+        <p class="text-light-emphasis small">Terms of Use</p>
+
+</div>
+
+        </div>
+        <div class="row g-0 justify-content-start offset-2">
+            <div class="col-12 col-sm-6 col-lg-2">
+                <p class="text-light-emphasis small">Privacy</p>
+
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+            <p class="text-light-emphasis small">Legal Notices</p>
+
+    </div>
+    <div class="col-12 col-sm-6 col-lg-2">
+        <p class="text-light-emphasis small">Cookie Preferences</p>
+
+</div>
+<div class="col-12 col-sm-6 col-lg-2">
+    <p class="text-light-emphasis small">Coorporate Informations</p>
+
+</div>
+
+
+    </div>
+    <div class="row g-0 justify-content-start offset-2">
+        <div class="col-12 col-sm-6 col-lg-2">
+            <p class="text-light-emphasis small ">Contact Us</p>
+
+    </div>
+
+
+
+
+            
+
+            </div>
+            <div class="row g-0 justify-content-start text-center offset-2 pt-2">
+                <div class="col-6 col-lg-2">
+                    <div class="bg-dark text-light-emphasis"><p class="border border-1 m-0 small me-5">Service Code</p>
+                    </div>
+               </div>
+            </div>
+            <div class="row g-0 justify-content-start offset-2 pt-3">
+                <div class="col-12 col-lg-4">
+                    <cite class="text-light-emphasis small "> © 1997 - 2019 Netflix, Inc. {i-fjlfdwi948} </cite>
+                 
+        
+            </div>
+            
+
+
+        </footer>                
+        
+    
+
+
+
+
+
+</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
